@@ -1,10 +1,8 @@
 import observer.architecture.ConcreteObserver;
 import observer.architecture.ConcreteSubject;
 import observer.architecture.Observer;
-import observer.architecture.Subject;
 import observer.example.StatuBar;
 import observer.example.StatusListView;
-import observer.example.Stock;
 import observer.example.Stocks;
 
 import java.lang.ref.WeakReference;

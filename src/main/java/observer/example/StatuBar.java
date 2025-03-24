@@ -2,8 +2,6 @@ package observer.example;
 
 import observer.architecture.Observer;
 
-import java.util.Arrays;
-
 public class StatuBar implements Observer {
 
     private Stocks stockDatasource;
