@@ -12,6 +12,6 @@ public class ConcreteSubject extends Subject {
 
     public void setState(int state) {
         this.state = state;
-        notifyObservers(state);
+        notifyObservers();
     }
 }
