@@ -12,11 +12,11 @@ public abstract class Subject {
     public void detach(WeakReference<Observer> observer) {
         observers.remove(observer);
     }
-    public void notifyObservers() {
+    public void notifyObservers(int value) {
         for (WeakReference<Observer> observer : observers) {
             Observer o = observer.get();
             if (o != null) {
-                o.update();
+                o.update(value);
             } else {
                 observers.remove(observer);
             }

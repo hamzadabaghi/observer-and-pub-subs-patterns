@@ -11,17 +11,18 @@ public class Main {
 
         /* ------ observer pattern ------ */
 
-        System.out.println("------ observer pattern ------");
+        System.out.println("------ observer pattern ------\n");
         ConcreteSubject subject = new ConcreteSubject();
         WeakReference<Observer> observer1 = new WeakReference<>(new ConcreteObserver());
         WeakReference<Observer> observer2 = new WeakReference<>(new ConcreteObserver());
         subject.attach(observer1);
         subject.attach(observer2);
         subject.setState(10);
+        subject.setState(20);
 
 
         /* ------ pub/sub pattern ------ */
 
-        System.out.println("------ pub/sub pattern ------");
+        System.out.println("\n------ pub/sub pattern ------");
     }
 }

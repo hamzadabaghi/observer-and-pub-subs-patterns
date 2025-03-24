@@ -1,5 +1,7 @@
 package observer.architecture;
 
+import java.lang.ref.WeakReference;
+
 public class ConcreteSubject extends Subject {
 
     private int state;
@@ -10,6 +12,6 @@ public class ConcreteSubject extends Subject {
 
     public void setState(int state) {
         this.state = state;
-        notifyObservers();
+        notifyObservers(state);
     }
 }

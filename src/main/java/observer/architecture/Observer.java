@@ -1,5 +1,5 @@
 package observer.architecture;
 
 public interface Observer {
-    void update();
+    void update(int state);
 }
