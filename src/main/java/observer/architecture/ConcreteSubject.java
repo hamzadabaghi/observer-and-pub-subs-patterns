@@ -1,7 +1,5 @@
 package observer.architecture;
 
-import java.lang.ref.WeakReference;
-
 public class ConcreteSubject extends Subject {
 
     private int state;

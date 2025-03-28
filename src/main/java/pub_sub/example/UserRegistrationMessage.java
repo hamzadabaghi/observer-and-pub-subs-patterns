@@ -20,12 +20,6 @@ public class UserRegistrationMessage implements Message {
         return email;
     }
 
-    /**
-     * This method returns the type of the message.
-     * In a real-world scenario, this could be used for routing messages to the appropriate subscribers.
-     *
-     * @return The type of the message as a string.
-     */
     @Override
     public String getType() {
         return "USER_REGISTRATION";

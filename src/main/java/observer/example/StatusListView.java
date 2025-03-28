@@ -4,7 +4,7 @@ import observer.architecture.Observer;
 
 public class StatusListView implements Observer {
 
-    private Stocks stockDatasource;
+    private final Stocks stockDatasource;
 
     public StatusListView(Stocks stockDatasource) {
         this.stockDatasource = stockDatasource;

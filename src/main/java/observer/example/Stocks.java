@@ -9,11 +9,9 @@ import java.util.stream.Collectors;
 
 public class Stocks extends Subject {
 
-    private int numberOfStocks;
-    private List<Stock> stocks;
+    private final List<Stock> stocks;
 
     public Stocks(int numberOfStocks) {
-        this.numberOfStocks = numberOfStocks;
         stocks = new ArrayList<>(numberOfStocks);
     }
 

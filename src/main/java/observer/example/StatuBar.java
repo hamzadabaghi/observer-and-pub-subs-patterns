@@ -4,7 +4,7 @@ import observer.architecture.Observer;
 
 public class StatuBar implements Observer {
 
-    private Stocks stockDatasource;
+    private final Stocks stockDatasource;
 
     public StatuBar(Stocks stockDatasource) {
         this.stockDatasource = stockDatasource;
