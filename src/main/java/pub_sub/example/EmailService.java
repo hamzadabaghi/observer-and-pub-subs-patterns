@@ -1,8 +1,7 @@
-package pub_sub.example.subscribers;
+package pub_sub.example;
 
-import pub_sub.architecture.common.Message;
-import pub_sub.architecture.sub.Subscriber;
-import pub_sub.example.common.UserRegistrationMessage;
+import pub_sub.architecture.Message;
+import pub_sub.architecture.Subscriber;
 
 public class EmailService implements Subscriber {
 

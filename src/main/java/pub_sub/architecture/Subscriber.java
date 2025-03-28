@@ -1,6 +1,4 @@
-package pub_sub.architecture.sub;
-
-import pub_sub.architecture.common.Message;
+package pub_sub.architecture;
 
 /**
   * Subscriber : SUBSCRIBER CONTRACT

@@ -1,6 +1,4 @@
-package pub_sub.architecture.pub;
-
-import pub_sub.architecture.broker.MessageBroker;
+package pub_sub.architecture;
 
 public abstract class Publisher {
 

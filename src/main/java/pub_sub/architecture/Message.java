@@ -1,4 +1,4 @@
-package pub_sub.architecture.common;
+package pub_sub.architecture;
 
 /**
   * Message : MESSAGE CONTRACT
