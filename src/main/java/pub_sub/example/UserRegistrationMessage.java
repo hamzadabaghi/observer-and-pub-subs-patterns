@@ -1,6 +1,6 @@
-package pub_sub.example.common;
+package pub_sub.example;
 
-import pub_sub.architecture.common.Message;
+import pub_sub.architecture.Message;
 
 public class UserRegistrationMessage implements Message {
 

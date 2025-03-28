@@ -1,7 +1,4 @@
-package pub_sub.architecture.broker;
-
-import pub_sub.architecture.common.Message;
-import pub_sub.architecture.sub.Subscriber;
+package pub_sub.architecture;
 
 import java.util.ArrayList;
 import java.util.List;

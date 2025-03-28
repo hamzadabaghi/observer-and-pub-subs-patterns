@@ -1,8 +1,7 @@
-package pub_sub.example.publishers;
+package pub_sub.example;
 
-import pub_sub.architecture.broker.MessageBroker;
-import pub_sub.architecture.pub.Publisher;
-import pub_sub.example.common.UserRegistrationMessage;
+import pub_sub.architecture.MessageBroker;
+import pub_sub.architecture.Publisher;
 
 public class UserService extends Publisher {
 

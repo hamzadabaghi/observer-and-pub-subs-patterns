@@ -4,10 +4,10 @@ import observer.architecture.Observer;
 import observer.example.StatuBar;
 import observer.example.StatusListView;
 import observer.example.Stocks;
-import pub_sub.architecture.broker.MessageBroker;
-import pub_sub.example.publishers.UserService;
-import pub_sub.example.subscribers.AnalyticsService;
-import pub_sub.example.subscribers.EmailService;
+import pub_sub.architecture.MessageBroker;
+import pub_sub.example.UserService;
+import pub_sub.example.AnalyticsService;
+import pub_sub.example.EmailService;
 
 public class Main {
 
